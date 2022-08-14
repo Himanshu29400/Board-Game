@@ -1,0 +1,42 @@
+.scorecard {
+    width: 100px;
+    font-size: 12px;
+}
+.playername {
+    font-size: 1em;
+    padding: 0.4em;
+}
+.score {
+    font-size: 1em;
+    padding: 0.4em;
+}
+.edit-icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.tick-icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.8; /* Firefox */
+    font-weight: lighter;
+}
+
+@media only screen and (min-width: 600px) {
+    .scorecard {
+      width: 200px;
+      font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .scorecard {
+      width: 300px;
+      font-size: 15px;
+    }
+}
+
