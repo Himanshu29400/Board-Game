@@ -11,18 +11,16 @@ const ScoreContainer = styled.div`
     text-align: center;
     font-weight: bold;
     color: white;
-`
+`;
 
 const Score = ({playerId}) => {
-    const playerScore = useSelector(state => getPlayerScore(state, playerId));
+    const playerScore = useSelector((state) => getPlayerScore(state, playerId));
 
-    return (
-        <ScoreContainer className='score'>{playerScore}</ScoreContainer>
-    )
-}
+    return <ScoreContainer className="score">{playerScore}</ScoreContainer>;
+};
 
 Score.propTypes = {
     playerId: PropTypes.number.isRequired,
-}
+};
 
 export default Score;

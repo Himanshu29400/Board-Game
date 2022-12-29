@@ -1,8 +1,10 @@
-import {createSelector} from '@reduxjs/toolkit'
+import {createSelector} from '@reduxjs/toolkit';
 
 export const getAllPlayersInfo = (state) => state.players;
 
-export const getPlayerInfo = createSelector(getAllPlayersInfo, (state, playerId) => playerId,
+export const getPlayerInfo = createSelector(
+    getAllPlayersInfo,
+    (state, playerId) => playerId,
     (playersInfo, playerId) => playersInfo[playerId],
 );
 

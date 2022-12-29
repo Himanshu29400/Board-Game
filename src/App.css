@@ -14,10 +14,36 @@
     width: 1.5em;
     height: 1.5em;
 }
-
 .tick-icon {
     width: 1.5em;
     height: 1.5em;
+}
+
+.timer-container {
+    font-size: 30px;
+}
+
+.timer-digit {
+    font-size: 1em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+
+.timer-digits-separator {
+    width: 0.1em;
+}
+
+.timer-clock-icon {
+    width: 1.3em;
+    height: 1.5em;
+}
+
+.menu-container {
+    width: 100px;
+    font-size: 12px;
+}
+.menu-toggler {
+    width: 20px;
 }
 
 ::placeholder {
@@ -31,12 +57,40 @@
       width: 200px;
       font-size: 15px;
     }
+    .digit {
+        width: 15px;
+    }
+    .timer-container {
+        font-size: 40px;
+    }
+    .menu-container {
+        width: 150px;
+        font-size: 16px;
+    }
+    .menu-toggler {
+        width: 25px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
     .scorecard {
-      width: 300px;
+      width: 250px;
       font-size: 15px;
     }
+    .digit {
+        width: 15px;
+    }
+    .timer-container {
+        font-size: 50px;
+    }
+    .overlay-panel {
+        font-size: 20px;
+    }
+    .menu-container {
+        width: 200px;
+        font-size: 16px;
+    }
+    .menu-toggler {
+        width: 25px;
+    }
 }
-
